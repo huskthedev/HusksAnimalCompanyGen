@@ -5,20 +5,30 @@
     <title> </title>
     <style>
         body {
+            background-color: #111;
+            color: white;
+            font-family: sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            background-color: #111;
-            color: white;
-            font-family: sans-serif;
+            min-height: 100vh;
+        }
+
+        .slot {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
         }
 
         select {
-            font-size: 1.2rem;
-            padding: 8px;
-            margin: 10px 0;
+            font-size: 1rem;
+            padding: 6px 10px;
+            margin: 5px;
             background-color: #222;
             color: white;
             border: 1px solid #555;
@@ -57,43 +67,46 @@
             fetch('/items.json')
                 .then(response => response.json())
                 .then(data => {
-                    const itemSelect = document.getElementById("itemSelect");
-                    const ammoSelect = document.getElementById("ammoSelect");
+                    for (const slot in data) {
+                        const item = data[slot];
+                        const container = document.createElement("div");
+                        container.className = "slot";
 
-                    const itemOptions = [];
+                        const title = document.createElement("label");
+                        title.textContent = slot;
+                        container.appendChild(title);
 
-                    for (const key in data) {
-                        const item = data[key];
+                        const itemSelect = document.createElement("select");
+                        const ammoSelect = document.createElement("select");
+
+                        const itemID = item.itemID;
+                        const maxAmmo = item.maxAmmo;
+
                         let label = "";
-
-                        if (item.itemID === "item_shotgun") {
+                        if (itemID === "item_shotgun") {
                             label = "Shotgun";
                         } else {
-                            label = item.itemID;
+                            label = itemID;
                         }
-
-                        itemOptions.push({
-                            label: label,
-                            value: item.itemID + "|" + item.maxAmmo
-                        });
 
                         const option = document.createElement("option");
-                        option.value = item.itemID + "|" + item.maxAmmo;
+                        option.value = itemID + "|" + maxAmmo;
                         option.textContent = label;
                         itemSelect.appendChild(option);
-                    }
 
-                    itemSelect.addEventListener("change", function () {
-                        const [itemID, maxAmmo] = this.value.split("|");
-                        ammoSelect.innerHTML = "";
-
-                        for (let i = 0; i <= Number(maxAmmo); i++) {
-                            const option = document.createElement("option");
-                            option.value = i;
-                            option.textContent = i + " ammo";
-                            ammoSelect.appendChild(option);
+                        for (let i = 0; i <= maxAmmo; i++) {
+                            const ammoOption = document.createElement("option");
+                            ammoOption.value = i;
+                            ammoOption.textContent = i + " ammo";
+                            ammoSelect.appendChild(ammoOption);
                         }
-                    });
+
+                        ammoSelect.value = item.ammo;
+
+                        container.appendChild(itemSelect);
+                        container.appendChild(ammoSelect);
+                        document.body.appendChild(container);
+                    }
                 })
                 .catch(error => {
                     console.error("Fehler beim Laden der JSON:", error);
@@ -103,11 +116,5 @@
 </head>
 <body>
     <h1>Tab-Titel is animated correctly</h1>
-    <select id="itemSelect">
-        <option disabled selected>Wähle eine Waffe...</option>
-    </select>
-    <select id="ammoSelect">
-        <option disabled selected>Wähle Ammo...</option>
-    </select>
 </body>
 </html>
