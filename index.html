@@ -50,74 +50,89 @@
     <button id="generateBtn">Generate JSON</button>
 
     <script>
-        const slots = ["leftHand", "rightHand", "leftHip", "rightHip", "back"];
-let items = {}
+    const slots = ["leftHand", "rightHand", "leftHip", "rightHip", "back"];
+    let items = {};
 
-const slotContainer = document.getElementById("slots");
-const generateBtn = document.getElementById("generateBtn");
+    const slotContainer = document.getElementById("slots");
+    const generateBtn = document.getElementById("generateBtn");
 
-fetch('items.json')
-  .then(response => {
-    if (!response.ok) throw new Error("Failed to load items.json");
-    return response.json();
-  })
-  .then(data => {
-    items = data;
-    createSlots();
-  })
-  .catch(err => {
-    console.error(err);
-    slotContainer.textContent = "Fehler beim Laden der Items.";
-    generateBtn.disabled = true;
-  });
+    fetch('items.json')
+        .then(response => {
+            if (!response.ok) throw new Error("Failed to load items.json");
+            return response.json();
+        })
+        .then(data => {
+            items = data;
+            createSlots();
+        })
+        .catch(err => {
+            console.error(err);
+            slotContainer.textContent = "Fehler beim Laden der Items.";
+            generateBtn.disabled = true;
+        });
 
-function createSlots() {
-  const allItemIDs = Object.keys(items);
-  allItemIDs.unshift("nothing");
+    function createSlots() {
+        const allItemIDs = Object.keys(items);
+        allItemIDs.unshift("nothing");
 
-  slots.forEach(slot => {
-    const container = document.createElement("div");
-    container.className = "slot";
+        slots.forEach(slot => {
+            const container = document.createElement("div");
+            container.className = "slot";
 
-    const label = document.createElement("label");
-    label.textContent = slot;
-    container.appendChild(label);
+            const label = document.createElement("label");
+            label.textContent = slot;
+            container.appendChild(label);
 
-    const itemSelect = document.createElement("select");
-    const ammoSelect = document.createElement("select");
+            const itemSelect = document.createElement("select");
+            const ammoSelect = document.createElement("select");
 
-    allItemIDs.forEach(itemID => {
-      const option = document.createElement("option");
-      option.value = itemID;
-      option.textContent = itemID === "nothing" ? "Nothing" : itemID.replace(/_/g, ' ');
-      itemSelect.appendChild(option);
-    });
+            allItemIDs.forEach(itemID => {
+                const option = document.createElement("option");
+                option.value = itemID;
+                option.textContent = itemID === "nothing" ? "Nothing" : itemID.replace(/_/g, ' ');
+                itemSelect.appendChild(option);
+            });
 
-    itemSelect.addEventListener("change", () => {
-  ammoSelect.innerHTML = "";
+            itemSelect.addEventListener("change", () => {
+                ammoSelect.innerHTML = "";
 
-  if (itemSelect.value === "nothing") {
-    ammoSelect.disabled = true;
-    return;
-  } else {
-    ammoSelect.disabled = false;
-  }
+                const selectedItemID = itemSelect.value;
 
-  const itemData = items[itemSelect.value];
-  let maxAmmo = 0;
-  if (itemData && itemData[slot] && typeof itemData[slot].maxAmmo === "number") {
-    maxAmmo = itemData[slot].maxAmmo;
-  }
+                if (selectedItemID === "nothing" || selectedItemID === "item_heart_gun") {
+                    ammoSelect.disabled = true;
+                    return;
+                }
 
-  for (let i = 0; i <= maxAmmo; i++) {
-    const ammoOption = document.createElement("option");
-    ammoOption.value = i;
-    ammoOption.textContent = i + " ammo";
-    ammoSelect.appendChild(ammoOption);
-  }
-});
-}
+                const weaponKeywords = ["shotgun", "revolver", "rpg", "grenade", "sniper", "rifle", "pistol"];
+                const isWeapon = weaponKeywords.some(kw => selectedItemID.includes(kw));
 
-    </script>
+                if (!isWeapon) {
+                    ammoSelect.disabled = true;
+                    return;
+                }
+
+                ammoSelect.disabled = false;
+
+                const itemData = items[selectedItemID];
+                let maxAmmo = 0;
+
+                if (itemData && itemData[slot] && typeof itemData[slot].maxAmmo === "number") {
+                    maxAmmo = itemData[slot].maxAmmo;
+                }
+
+                for (let i = 0; i <= maxAmmo; i++) {
+                    const ammoOption = document.createElement("option");
+                    ammoOption.value = i;
+                    ammoOption.textContent = i + " ammo";
+                    ammoSelect.appendChild(ammoOption);
+                }
+            });
+
+            container.appendChild(itemSelect);
+            container.appendChild(ammoSelect);
+            slotContainer.appendChild(container);
+        });
+    }
+</script>
 </body>
 </html>
