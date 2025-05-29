@@ -1,29 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const fullTitle = "Husks AC generator";
             let currentIndex = 0;
+            let direction = 1;
 
-            function typeWriter() {
-                if (currentIndex <= fullTitle.length) {
-                    document.title = fullTitle.slice(0, currentIndex);
-                    currentIndex++;
-                    setTimeout(typeWriter, 200);
-                } else {
-                    console.log("An error occured please reload the website!")
+            function animateTitle() {
+                document.title = fullTitle.slice(0, currentIndex);
+                currentIndex += direction;
+
+                if (currentIndex > fullTitle.length) {
+                    direction = -1;
+                    currentIndex = fullTitle.length - 1;
+                    setTimeout(animateTitle, 1000);
+                    return;
                 }
+
+                if (currentIndex < 0) {
+                    direction = 1;
+                    currentIndex = 1;
+                    setTimeout(animateTitle, 500);
+                    return;
+                }
+
+                setTimeout(animateTitle, 150);
             }
 
-            typeWriter();
+            animateTitle();
         });
     </script>
 </head>
 <body>
-    Test
+    <h1>Nothing currently</h1>
 </body>
 </html>
