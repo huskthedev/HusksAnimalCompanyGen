@@ -89,7 +89,7 @@ function createSlots() {
     allItemIDs.forEach(itemID => {
       const option = document.createElement("option");
       option.value = itemID;
-      option.textContent = itemID === "nothing" ? "Nothing" : itemID.replace("item_", "");
+      option.textContent = itemID === "nothing" ? "Nothing" : itemID.replace(/_/g, ' ');
       itemSelect.appendChild(option);
     });
 
@@ -125,38 +125,6 @@ function createSlots() {
     slotContainer.appendChild(container);
   });
 }
-
-generateBtn.addEventListener("click", () => {
-  const result = { version: 1 };
-
-  document.querySelectorAll(".slot").forEach(slot => {
-    const name = slot.querySelector("label").textContent;
-    const itemID = slot.querySelectorAll("select")[0].value;
-    const ammoSelect = slot.querySelectorAll("select")[1];
-
-    if (itemID !== "nothing") {
-      const itemData = items[itemID];
-      let maxAmmo = 0;
-      if (itemData && itemData[name] && typeof itemData[name].maxAmmo === "number") {
-        maxAmmo = itemData[name].maxAmmo;
-      }
-
-      result[name] = {
-        itemID: itemID,
-        ammo: Number(ammoSelect.value),
-        maxAmmo: maxAmmo
-      };
-    }
-  });
-
-  const blob = new Blob([JSON.stringify(result, null, 2)], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "slots.json";
-  a.click();
-  URL.revokeObjectURL(url);
-});
 
     </script>
 </body>
