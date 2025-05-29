@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title> </title>
+    <title></title>
     <style>
         body {
             background-color: #111;
@@ -14,17 +14,14 @@
             justify-content: center;
             min-height: 100vh;
         }
-
         .slot {
             margin: 15px 0;
             text-align: center;
         }
-
         label {
             display: block;
             margin-bottom: 5px;
         }
-
         select {
             font-size: 1rem;
             padding: 6px 10px;
@@ -34,87 +31,108 @@
             border: 1px solid #555;
             border-radius: 4px;
         }
+        button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const fullTitle = "Husks AC generator";
-            let index = 0;
-            let direction = 1;
-
-            function updateTitle() {
-                document.title = fullTitle.substring(0, index);
-                index += direction;
-
-                if (index > fullTitle.length) {
-                    direction = -1;
-                    index = fullTitle.length;
-                    setTimeout(updateTitle, 1000);
-                    return;
-                }
-
-                if (index < 0) {
-                    direction = 1;
-                    index = 0;
-                    setTimeout(updateTitle, 500);
-                    return;
-                }
-
-                setTimeout(updateTitle, 180);
-            }
-
-            updateTitle();
-
-            fetch('/items.json')
-                .then(response => response.json())
-                .then(data => {
-                    for (const slot in data) {
-                        const item = data[slot];
-                        const container = document.createElement("div");
-                        container.className = "slot";
-
-                        const title = document.createElement("label");
-                        title.textContent = slot;
-                        container.appendChild(title);
-
-                        const itemSelect = document.createElement("select");
-                        const ammoSelect = document.createElement("select");
-
-                        const itemID = item.itemID;
-                        const maxAmmo = item.maxAmmo;
-
-                        let label = "";
-                        if (itemID === "item_shotgun") {
-                            label = "Shotgun";
-                        } else {
-                            label = itemID;
-                        }
-
-                        const option = document.createElement("option");
-                        option.value = itemID + "|" + maxAmmo;
-                        option.textContent = label;
-                        itemSelect.appendChild(option);
-
-                        for (let i = 0; i <= maxAmmo; i++) {
-                            const ammoOption = document.createElement("option");
-                            ammoOption.value = i;
-                            ammoOption.textContent = i + " ammo";
-                            ammoSelect.appendChild(ammoOption);
-                        }
-
-                        ammoSelect.value = item.ammo;
-
-                        container.appendChild(itemSelect);
-                        container.appendChild(ammoSelect);
-                        document.body.appendChild(container);
-                    }
-                })
-                .catch(error => {
-                    console.error("Fehler beim Laden der JSON:", error);
-                });
-        });
-    </script>
 </head>
 <body>
-    <h1>Tab-Titel is animated correctly</h1>
+    <h1>Item Slot Configurator</h1>
+
+    <div id="slots"></div>
+    <button id="generateBtn">Generate JSON</button>
+
+    <script>
+        const slots = ["leftHand", "rightHand", "leftHip", "rightHip", "back"];
+        const items = [
+            { itemID: "item_shotgun", maxAmmo: 2 },
+            { itemID: "item_heart_gun", maxAmmo: 10 },
+            { itemID: "item_rpg", maxAmmo: 3 },
+            { itemID: "item_cracker", maxAmmo: 0 },
+            { itemID: "nothing", maxAmmo: 0 }
+        ];
+
+        const slotContainer = document.getElementById("slots");
+
+        slots.forEach(slot => {
+            const container = document.createElement("div");
+            container.className = "slot";
+
+            const label = document.createElement("label");
+            label.textContent = slot;
+            container.appendChild(label);
+
+            const itemSelect = document.createElement("select");
+            const ammoSelect = document.createElement("select");
+
+            items.forEach(item => {
+                const option = document.createElement("option");
+                option.value = item.itemID;
+                option.textContent = item.itemID === "nothing" ? "Nothing" : item.itemID.replace("item_", "");
+                itemSelect.appendChild(option);
+            });
+
+            itemSelect.addEventListener("change", () => {
+                const selectedItem = items.find(i => i.itemID === itemSelect.value);
+                ammoSelect.innerHTML = "";
+
+                if (itemSelect.value === "nothing") {
+                    ammoSelect.disabled = true;
+                    return;
+                } else {
+                    ammoSelect.disabled = false;
+                }
+
+                for (let i = 0; i <= selectedItem.maxAmmo; i++) {
+                    const ammoOption = document.createElement("option");
+                    ammoOption.value = i;
+                    ammoOption.textContent = i + " ammo";
+                    ammoSelect.appendChild(ammoOption);
+                }
+            });
+
+            itemSelect.value = "nothing";
+            ammoSelect.disabled = true;
+
+            container.appendChild(itemSelect);
+            container.appendChild(ammoSelect);
+            slotContainer.appendChild(container);
+        });
+
+        document.getElementById("generateBtn").addEventListener("click", () => {
+            const result = { version: 1 };
+
+            document.querySelectorAll(".slot").forEach(slot => {
+                const name = slot.querySelector("label").textContent;
+                const itemID = slot.querySelector("select").value;
+                const ammoSelect = slot.querySelectorAll("select")[1];
+
+                if (itemID !== "nothing") {
+                    result[name] = {
+                        itemID: itemID,
+                        ammo: Number(ammoSelect.value),
+                        maxAmmo: items.find(i => i.itemID === itemID).maxAmmo
+                    };
+                } else {
+                    result[name] = {};
+                }
+            });
+
+            const blob = new Blob([JSON.stringify(result, null, 2)], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "slots.json";
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+    </script>
 </body>
 </html>
