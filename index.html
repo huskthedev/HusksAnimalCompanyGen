@@ -100,9 +100,13 @@
       ammoSelect.style.display = "none";
       ammoSelect.disabled = true;
 
-      if (selectedItemID === "nothing" || selectedItemID === "item_heart_gun") return;
+      if (
+        selectedItemID === "nothing" ||
+        selectedItemID === "item_heart_gun" ||
+        selectedItemID.includes("grenade")
+      ) return;
 
-      const weaponKeywords = ["shotgun", "revolver", "rpg", "grenade", "sniper", "rifle", "pistol"];
+      const weaponKeywords = ["shotgun", "revolver", "rpg", "sniper", "rifle", "pistol"];
       const isWeapon = weaponKeywords.some(kw => selectedItemID.includes(kw));
 
       if (!isWeapon) return;
