@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Item Slot Configurator</title>
     <style>
-        /* Dein CSS bleibt unverändert */
         body {
             background-color: #111;
             color: white;
@@ -52,12 +51,12 @@
 
     <script>
         const slots = ["leftHand", "rightHand", "leftHip", "rightHip", "back"];
-        let items = [];  // Wird später mit fetch geladen
+        let items = [];
 
         const slotContainer = document.getElementById("slots");
         const generateBtn = document.getElementById("generateBtn");
 
-        // Lade items.json vom Root-Verzeichnis
+        // items.json vom Root-Verzeichnis laden
         fetch('items.json')
             .then(response => {
                 if (!response.ok) throw new Error("Failed to load items.json");
@@ -65,8 +64,6 @@
             })
             .then(data => {
                 items = data;
-
-                // Erstelle die Slot-Auswahl nachdem items geladen sind
                 createSlots();
             })
             .catch(err => {
@@ -127,7 +124,7 @@
 
             document.querySelectorAll(".slot").forEach(slot => {
                 const name = slot.querySelector("label").textContent;
-                const itemID = slot.querySelector("select").value;
+                const itemID = slot.querySelectorAll("select")[0].value;
                 const ammoSelect = slot.querySelectorAll("select")[1];
 
                 if (itemID !== "nothing") {
@@ -137,9 +134,8 @@
                         ammo: Number(ammoSelect.value),
                         maxAmmo: selectedItem ? selectedItem.maxAmmo : 0
                     };
-                } else {
-                    result[name] = {};
                 }
+                // Slots mit "nothing" werden nicht ins Ergebnis übernommen
             });
 
             const blob = new Blob([JSON.stringify(result, null, 2)], { type: "application/json" });
