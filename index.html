@@ -58,11 +58,27 @@
                 .then(response => response.json())
                 .then(data => {
                     const select = document.getElementById("itemSelect");
+
                     for (const key in data) {
                         const item = data[key];
                         const option = document.createElement("option");
                         option.value = item.itemID;
-                        option.textContent = `${key}: ${item.itemID} (Ammo: ${item.ammo})`;
+
+                        let label = "";
+
+                        if (item.itemID === "item_shotgun") {
+                            if (item.ammo >= 2) {
+                                label = "Shotgun Fully loaded";
+                            } else if (item.ammo === 1) {
+                                label = "Shotgun Half loaded";
+                            } else {
+                                label = "Shotgun Empty";
+                            }
+                        } else {
+                            label = `${item.itemID} (Ammo: ${item.ammo})`;
+                        }
+
+                        option.textContent = label;
                         select.appendChild(option);
                     }
                 })
