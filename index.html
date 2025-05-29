@@ -6,35 +6,36 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const fullTitle = "Husks AC generator";
-            let currentIndex = 0;
+            let index = 0;
             let direction = 1;
 
-            function animateTitle() {
-                document.title = fullTitle.slice(0, currentIndex);
-                currentIndex += direction;
+            function updateTitle() {
+                document.title = fullTitle.substring(0, index);
 
-                if (currentIndex > fullTitle.length) {
+                index += direction;
+
+                if (index > fullTitle.length) {
                     direction = -1;
-                    currentIndex = fullTitle.length - 1;
-                    setTimeout(animateTitle, 1000);
+                    index = fullTitle.length;
+                    setTimeout(updateTitle, 1000);
                     return;
                 }
 
-                if (currentIndex < 0) {
+                if (index < 0) {
                     direction = 1;
-                    currentIndex = 1;
-                    setTimeout(animateTitle, 500);
+                    index = 0;
+                    setTimeout(updateTitle, 500);
                     return;
                 }
 
-                setTimeout(animateTitle, 150);
+                setTimeout(updateTitle, 150);
             }
 
-            animateTitle();
+            updateTitle();
         });
     </script>
 </head>
 <body>
-    <h1>Nothing currently</h1>
+    <h1>Tab-Titel is animated correctly</h1>
 </body>
 </html>
