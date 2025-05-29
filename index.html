@@ -18,7 +18,7 @@
         select {
             font-size: 1.2rem;
             padding: 8px;
-            margin-top: 20px;
+            margin: 10px 0;
             background-color: #222;
             color: white;
             border: 1px solid #555;
@@ -57,30 +57,43 @@
             fetch('/items.json')
                 .then(response => response.json())
                 .then(data => {
-                    const select = document.getElementById("itemSelect");
+                    const itemSelect = document.getElementById("itemSelect");
+                    const ammoSelect = document.getElementById("ammoSelect");
+
+                    const itemOptions = [];
 
                     for (const key in data) {
                         const item = data[key];
-                        const option = document.createElement("option");
-                        option.value = item.itemID;
-
                         let label = "";
 
                         if (item.itemID === "item_shotgun") {
-                            if (item.ammo >= 2) {
-                                label = "Shotgun Fully loaded";
-                            } else if (item.ammo === 1) {
-                                label = "Shotgun Half loaded";
-                            } else {
-                                label = "Shotgun Empty";
-                            }
+                            label = "Shotgun";
                         } else {
-                            label = `${item.itemID} (Ammo: ${item.ammo})`;
+                            label = item.itemID;
                         }
 
+                        itemOptions.push({
+                            label: label,
+                            value: item.itemID + "|" + item.maxAmmo
+                        });
+
+                        const option = document.createElement("option");
+                        option.value = item.itemID + "|" + item.maxAmmo;
                         option.textContent = label;
-                        select.appendChild(option);
+                        itemSelect.appendChild(option);
                     }
+
+                    itemSelect.addEventListener("change", function () {
+                        const [itemID, maxAmmo] = this.value.split("|");
+                        ammoSelect.innerHTML = "";
+
+                        for (let i = 0; i <= Number(maxAmmo); i++) {
+                            const option = document.createElement("option");
+                            option.value = i;
+                            option.textContent = i + " ammo";
+                            ammoSelect.appendChild(option);
+                        }
+                    });
                 })
                 .catch(error => {
                     console.error("Fehler beim Laden der JSON:", error);
@@ -91,7 +104,10 @@
 <body>
     <h1>Tab-Titel is animated correctly</h1>
     <select id="itemSelect">
-        <option disabled selected>Wähle ein Item...</option>
+        <option disabled selected>Wähle eine Waffe...</option>
+    </select>
+    <select id="ammoSelect">
+        <option disabled selected>Wähle Ammo...</option>
     </select>
 </body>
 </html>
