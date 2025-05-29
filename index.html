@@ -94,36 +94,28 @@ function createSlots() {
     });
 
     itemSelect.addEventListener("change", () => {
-      ammoSelect.innerHTML = "";
+  ammoSelect.innerHTML = "";
 
-      if (itemSelect.value === "nothing") {
-        ammoSelect.disabled = true;
-        return;
-      } else {
-        ammoSelect.disabled = false;
-      }
-
-      const itemData = items[itemSelect.value];
-      let maxAmmo = 0;
-      if (itemData && itemData[slot] && typeof itemData[slot].maxAmmo === "number") {
-        maxAmmo = itemData[slot].maxAmmo;
-      }
-
-      for (let i = 0; i <= maxAmmo; i++) {
-        const ammoOption = document.createElement("option");
-        ammoOption.value = i;
-        ammoOption.textContent = i + " ammo";
-        ammoSelect.appendChild(ammoOption);
-      }
-    });
-
-    itemSelect.value = "nothing";
+  if (itemSelect.value === "nothing") {
     ammoSelect.disabled = true;
+    return;
+  } else {
+    ammoSelect.disabled = false;
+  }
 
-    container.appendChild(itemSelect);
-    container.appendChild(ammoSelect);
-    slotContainer.appendChild(container);
-  });
+  const itemData = items[itemSelect.value];
+  let maxAmmo = 0;
+  if (itemData && itemData[slot] && typeof itemData[slot].maxAmmo === "number") {
+    maxAmmo = itemData[slot].maxAmmo;
+  }
+
+  for (let i = 0; i <= maxAmmo; i++) {
+    const ammoOption = document.createElement("option");
+    ammoOption.value = i;
+    ammoOption.textContent = i + " ammo";
+    ammoSelect.appendChild(ammoOption);
+  }
+});
 }
 
     </script>
