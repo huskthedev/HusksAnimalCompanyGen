@@ -2,8 +2,9 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Item Slot Configurator</title>
     <style>
+        /* Dein CSS bleibt unverändert */
         body {
             background-color: #111;
             color: white;
@@ -51,62 +52,77 @@
 
     <script>
         const slots = ["leftHand", "rightHand", "leftHip", "rightHip", "back"];
-        const items = [
-            { itemID: "item_shotgun", maxAmmo: 2 },
-            { itemID: "item_heart_gun", maxAmmo: 10 },
-            { itemID: "item_rpg", maxAmmo: 3 },
-            { itemID: "item_cracker", maxAmmo: 0 },
-            { itemID: "nothing", maxAmmo: 0 }
-        ];
+        let items = [];  // Wird später mit fetch geladen
 
         const slotContainer = document.getElementById("slots");
+        const generateBtn = document.getElementById("generateBtn");
 
-        slots.forEach(slot => {
-            const container = document.createElement("div");
-            container.className = "slot";
+        // Lade items.json vom Root-Verzeichnis
+        fetch('items.json')
+            .then(response => {
+                if (!response.ok) throw new Error("Failed to load items.json");
+                return response.json();
+            })
+            .then(data => {
+                items = data;
 
-            const label = document.createElement("label");
-            label.textContent = slot;
-            container.appendChild(label);
-
-            const itemSelect = document.createElement("select");
-            const ammoSelect = document.createElement("select");
-
-            items.forEach(item => {
-                const option = document.createElement("option");
-                option.value = item.itemID;
-                option.textContent = item.itemID === "nothing" ? "Nothing" : item.itemID.replace("item_", "");
-                itemSelect.appendChild(option);
+                // Erstelle die Slot-Auswahl nachdem items geladen sind
+                createSlots();
+            })
+            .catch(err => {
+                console.error(err);
+                slotContainer.textContent = "Fehler beim Laden der Items.";
+                generateBtn.disabled = true;
             });
 
-            itemSelect.addEventListener("change", () => {
-                const selectedItem = items.find(i => i.itemID === itemSelect.value);
-                ammoSelect.innerHTML = "";
+        function createSlots() {
+            slots.forEach(slot => {
+                const container = document.createElement("div");
+                container.className = "slot";
 
-                if (itemSelect.value === "nothing") {
-                    ammoSelect.disabled = true;
-                    return;
-                } else {
-                    ammoSelect.disabled = false;
-                }
+                const label = document.createElement("label");
+                label.textContent = slot;
+                container.appendChild(label);
 
-                for (let i = 0; i <= selectedItem.maxAmmo; i++) {
-                    const ammoOption = document.createElement("option");
-                    ammoOption.value = i;
-                    ammoOption.textContent = i + " ammo";
-                    ammoSelect.appendChild(ammoOption);
-                }
+                const itemSelect = document.createElement("select");
+                const ammoSelect = document.createElement("select");
+
+                items.forEach(item => {
+                    const option = document.createElement("option");
+                    option.value = item.itemID;
+                    option.textContent = item.itemID === "nothing" ? "Nothing" : item.itemID.replace("item_", "");
+                    itemSelect.appendChild(option);
+                });
+
+                itemSelect.addEventListener("change", () => {
+                    const selectedItem = items.find(i => i.itemID === itemSelect.value);
+                    ammoSelect.innerHTML = "";
+
+                    if (itemSelect.value === "nothing") {
+                        ammoSelect.disabled = true;
+                        return;
+                    } else {
+                        ammoSelect.disabled = false;
+                    }
+
+                    for (let i = 0; i <= selectedItem.maxAmmo; i++) {
+                        const ammoOption = document.createElement("option");
+                        ammoOption.value = i;
+                        ammoOption.textContent = i + " ammo";
+                        ammoSelect.appendChild(ammoOption);
+                    }
+                });
+
+                itemSelect.value = "nothing";
+                ammoSelect.disabled = true;
+
+                container.appendChild(itemSelect);
+                container.appendChild(ammoSelect);
+                slotContainer.appendChild(container);
             });
+        }
 
-            itemSelect.value = "nothing";
-            ammoSelect.disabled = true;
-
-            container.appendChild(itemSelect);
-            container.appendChild(ammoSelect);
-            slotContainer.appendChild(container);
-        });
-
-        document.getElementById("generateBtn").addEventListener("click", () => {
+        generateBtn.addEventListener("click", () => {
             const result = { version: 1 };
 
             document.querySelectorAll(".slot").forEach(slot => {
@@ -115,10 +131,11 @@
                 const ammoSelect = slot.querySelectorAll("select")[1];
 
                 if (itemID !== "nothing") {
+                    const selectedItem = items.find(i => i.itemID === itemID);
                     result[name] = {
                         itemID: itemID,
                         ammo: Number(ammoSelect.value),
-                        maxAmmo: items.find(i => i.itemID === itemID).maxAmmo
+                        maxAmmo: selectedItem ? selectedItem.maxAmmo : 0
                     };
                 } else {
                     result[name] = {};

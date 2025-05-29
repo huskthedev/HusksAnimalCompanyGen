@@ -1,7 +1,4241 @@
 {
-  "back": { "itemID": "item_shotgun", "ammo": 0, "maxAmmo": 2 },
-  "leftHand": { "itemID": "item_shotgun", "ammo": 0, "maxAmmo": 2 },
-  "rightHand": { "itemID": "item_shotgun", "ammo": 0, "maxAmmo": 2 },
-  "leftHip": { "itemID": "item_shotgun", "ammo": 0, "maxAmmo": 2 },
-  "rightHip": { "itemID": "item_shotgun", "ammo": 0, "maxAmmo": 2 }
+  "item_apple": {
+    "back": {
+      "itemID": "item_apple",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_apple",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_apple",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_apple",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_apple",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_anti_gravity_grenade": {
+    "back": {
+      "itemID": "item_anti_gravity_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_anti_gravity_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_anti_gravity_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_anti_gravity_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_anti_gravity_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_arrow": {
+    "back": {
+      "itemID": "item_arrow",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_arrow",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_arrow",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_arrow",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_arrow",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_arrow_heart": {
+    "back": {
+      "itemID": "item_arrow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_arrow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_arrow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_arrow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_arrow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_arrow_lightbulb": {
+    "back": {
+      "itemID": "item_arrow_lightbulb",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_arrow_lightbulb",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_arrow_lightbulb",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_arrow_lightbulb",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_arrow_lightbulb",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_arena_pistol": {
+    "back": {
+      "itemID": "item_arena_pistol",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_arena_pistol",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_arena_pistol",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_arena_pistol",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_arena_pistol",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_arena_shotgun": {
+    "back": {
+      "itemID": "item_arena_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_arena_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_arena_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_arena_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_arena_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack": {
+    "back": {
+      "itemID": "item_backpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_black": {
+    "back": {
+      "itemID": "item_backpack_black",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_black",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_black",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_black",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_black",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_green": {
+    "back": {
+      "itemID": "item_backpack_green",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_green",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_green",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_green",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_green",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_large_base": {
+    "back": {
+      "itemID": "item_backpack_large_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_large_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_large_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_large_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_large_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_large_clover": {
+    "back": {
+      "itemID": "item_backpack_large_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_large_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_large_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_large_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_large_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_large_basketball": {
+    "back": {
+      "itemID": "item_backpack_large_basketball",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_large_basketball",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_large_basketball",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_large_basketball",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_large_basketball",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_pink": {
+    "back": {
+      "itemID": "item_backpack_pink",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_pink",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_pink",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_pink",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_pink",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_small_base": {
+    "back": {
+      "itemID": "item_backpack_small_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_small_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_small_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_small_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_small_base",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_white": {
+    "back": {
+      "itemID": "item_backpack_white",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_white",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_white",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_white",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_white",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_backpack_with_flashlight": {
+    "back": {
+      "itemID": "item_backpack_with_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_backpack_with_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_backpack_with_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_backpack_with_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_backpack_with_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_balloon": {
+    "back": {
+      "itemID": "item_balloon",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_balloon",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_balloon",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_balloon",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_balloon",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_balloon_heart": {
+    "back": {
+      "itemID": "item_balloon_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_balloon_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_balloon_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_balloon_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_balloon_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_banana": {
+    "back": {
+      "itemID": "item_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_baseball_bat": {
+    "back": {
+      "itemID": "item_baseball_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_baseball_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_baseball_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_baseball_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_baseball_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_big_cup": {
+    "back": {
+      "itemID": "item_big_cup",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_big_cup",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_big_cup",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_big_cup",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_big_cup",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_boombox": {
+    "back": {
+      "itemID": "item_boombox",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_boombox",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_boombox",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_boombox",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_boombox",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_box_fan": {
+    "back": {
+      "itemID": "item_box_fan",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_box_fan",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_box_fan",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_box_fan",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_box_fan",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_boombox_neon": {
+    "back": {
+      "itemID": "item_boombox_neon",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_boombox_neon",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_boombox_neon",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_boombox_neon",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_boombox_neon",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_calculator": {
+    "back": {
+      "itemID": "item_calculator",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_calculator",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_calculator",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_calculator",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_calculator",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_cardboard_box": {
+    "back": {
+      "itemID": "item_cardboard_box",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_cardboard_box",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_cardboard_box",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_cardboard_box",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_cardboard_box",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_cash": {
+    "back": {
+      "itemID": "item_cash",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_cash",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_cash",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_cash",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_cash",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_cash_pile": {
+    "back": {
+      "itemID": "item_cash_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_cash_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_cash_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_cash_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_cash_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_cash_mega_pile": {
+    "back": {
+      "itemID": "item_cash_mega_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_cash_mega_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_cash_mega_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_cash_mega_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_cash_mega_pile",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_clapper": {
+    "back": {
+      "itemID": "item_clapper",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_clapper",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_clapper",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_clapper",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_clapper",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_cluster_grenade": {
+    "back": {
+      "itemID": "item_cluster_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_cluster_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_cluster_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_cluster_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_cluster_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_cola": {
+    "back": {
+      "itemID": "item_cola",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_cola",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_cola",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_cola",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_cola",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_cola_large": {
+    "back": {
+      "itemID": "item_cola_large",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_cola_large",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_cola_large",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_cola_large",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_cola_large",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_company_ration": {
+    "back": {
+      "itemID": "item_company_ration",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_company_ration",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_company_ration",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_company_ration",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_company_ration",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_company_ration_heal": {
+    "back": {
+      "itemID": "item_company_ration_heal",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_company_ration_heal",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_company_ration_heal",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_company_ration_heal",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_company_ration_heal",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_cracker": {
+    "back": {
+      "itemID": "item_cracker",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_cracker",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_cracker",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_cracker",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_cracker",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_crate": {
+    "back": {
+      "itemID": "item_crate",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_crate",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_crate",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_crate",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_crate",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_crossbow": {
+    "back": {
+      "itemID": "item_crossbow",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_crossbow",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_crossbow",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_crossbow",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_crossbow",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_crossbow_heart": {
+    "back": {
+      "itemID": "item_crossbow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_crossbow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_crossbow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_crossbow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_crossbow_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_crowbar": {
+    "back": {
+      "itemID": "item_crowbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_crowbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_crowbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_crowbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_crowbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_disc": {
+    "back": {
+      "itemID": "item_disc",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_disc",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_disc",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_disc",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_disc",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_disposable_camera": {
+    "back": {
+      "itemID": "item_disposable_camera",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_disposable_camera",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_disposable_camera",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_disposable_camera",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_disposable_camera",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_dynamite": {
+    "back": {
+      "itemID": "item_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_dynamite_cube": {
+    "back": {
+      "itemID": "item_dynamite_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_dynamite_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_dynamite_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_dynamite_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_dynamite_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_hawaiian_drum": {
+    "back": {
+      "itemID": "item_hawaiian_drum",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_hawaiian_drum",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_hawaiian_drum",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_hawaiian_drum",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_hawaiian_drum",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_egg": {
+    "back": {
+      "itemID": "item_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_flaregun": {
+    "back": {
+      "itemID": "item_flaregun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_flaregun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_flaregun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_flaregun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_flaregun",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_flashbang": {
+    "back": {
+      "itemID": "item_flashbang",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_flashbang",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_flashbang",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_flashbang",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_flashbang",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_flashlight": {
+    "back": {
+      "itemID": "item_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_flashlight",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_flashlight_mega": {
+    "back": {
+      "itemID": "item_flashlight_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_flashlight_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_flashlight_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_flashlight_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_flashlight_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_flashlight_red": {
+    "back": {
+      "itemID": "item_flashlight_red",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_flashlight_red",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_flashlight_red",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_flashlight_red",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_flashlight_red",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_floppy3": {
+    "back": {
+      "itemID": "item_floppy3",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_floppy3",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_floppy3",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_floppy3",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_floppy3",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_floppy5": {
+    "back": {
+      "itemID": "item_floppy5",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_floppy5",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_floppy5",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_floppy5",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_floppy5",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_football": {
+    "back": {
+      "itemID": "item_football",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_football",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_football",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_football",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_football",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_frying_pan": {
+    "back": {
+      "itemID": "item_frying_pan",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_frying_pan",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_frying_pan",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_frying_pan",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_frying_pan",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_glowstick": {
+    "back": {
+      "itemID": "item_glowstick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_glowstick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_glowstick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_glowstick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_glowstick",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_goldbar": {
+    "back": {
+      "itemID": "item_goldbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_goldbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_goldbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_goldbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_goldbar",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_grenade": {
+    "back": {
+      "itemID": "item_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_heart_chunk": {
+    "back": {
+      "itemID": "item_heart_chunk",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_heart_chunk",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_heart_chunk",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_heart_chunk",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_heart_chunk",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_heart_gun": {
+    "back": {
+      "itemID": "item_heart_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_heart_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_heart_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_heart_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_heart_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_heartchocolatebox": {
+    "back": {
+      "itemID": "item_heartchocolatebox",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_heartchocolatebox",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_heartchocolatebox",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_heartchocolatebox",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_heartchocolatebox",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_hh_key": {
+    "back": {
+      "itemID": "item_hh_key",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_hh_key",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_hh_key",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_hh_key",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_hh_key",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_hookshot": {
+    "back": {
+      "itemID": "item_hookshot",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_hookshot",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_hookshot",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_hookshot",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_hookshot",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_hoverpad": {
+    "back": {
+      "itemID": "item_hoverpad",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_hoverpad",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_hoverpad",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_hoverpad",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_hoverpad",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_impulse_grenade": {
+    "back": {
+      "itemID": "item_impulse_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_impulse_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_impulse_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_impulse_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_impulse_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_jetpack": {
+    "back": {
+      "itemID": "item_jetpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_jetpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_jetpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_jetpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_jetpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_keycard": {
+    "back": {
+      "itemID": "item_keycard",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_keycard",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_keycard",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_keycard",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_keycard",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_lance": {
+    "back": {
+      "itemID": "item_lance",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_lance",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_lance",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_lance",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_lance",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_large_banana": {
+    "back": {
+      "itemID": "item_large_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_large_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_large_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_large_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_large_banana",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_mug": {
+    "back": {
+      "itemID": "item_mug",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_mug",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_mug",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_mug",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_mug",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_landmine": {
+    "back": {
+      "itemID": "item_landmine",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_landmine",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_landmine",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_landmine",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_landmine",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_nut": {
+    "back": {
+      "itemID": "item_nut",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_nut",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_nut",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_nut",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_nut",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ogre_hands": {
+    "back": {
+      "itemID": "item_ogre_hands",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ogre_hands",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ogre_hands",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ogre_hands",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ogre_hands",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_copper_l": {
+    "back": {
+      "itemID": "item_ore_copper_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_copper_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_copper_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_copper_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_copper_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_copper_m": {
+    "back": {
+      "itemID": "item_ore_copper_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_copper_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_copper_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_copper_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_copper_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_copper_s": {
+    "back": {
+      "itemID": "item_ore_copper_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_copper_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_copper_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_copper_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_copper_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_gold_l": {
+    "back": {
+      "itemID": "item_ore_gold_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_gold_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_gold_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_gold_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_gold_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_gold_m": {
+    "back": {
+      "itemID": "item_ore_gold_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_gold_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_gold_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_gold_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_gold_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_gold_s": {
+    "back": {
+      "itemID": "item_ore_gold_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_gold_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_gold_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_gold_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_gold_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_hell": {
+    "back": {
+      "itemID": "item_ore_hell",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_hell",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_hell",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_hell",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_hell",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_silver_l": {
+    "back": {
+      "itemID": "item_ore_silver_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_silver_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_silver_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_silver_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_silver_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_silver_m": {
+    "back": {
+      "itemID": "item_ore_silver_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_silver_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_silver_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_silver_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_silver_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ore_silver_s": {
+    "back": {
+      "itemID": "item_ore_silver_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ore_silver_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ore_silver_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ore_silver_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ore_silver_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_painting_canvas": {
+    "back": {
+      "itemID": "item_painting_canvas",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_painting_canvas",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_painting_canvas",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_painting_canvas",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_painting_canvas",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_paperpack": {
+    "back": {
+      "itemID": "item_paperpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_paperpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_paperpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_paperpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_paperpack",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pelican_case": {
+    "back": {
+      "itemID": "item_pelican_case",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pelican_case",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pelican_case",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pelican_case",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pelican_case",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pickaxe": {
+    "back": {
+      "itemID": "item_pickaxe",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pickaxe",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pickaxe",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pickaxe",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pickaxe",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pickaxe_cny": {
+    "back": {
+      "itemID": "item_pickaxe_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pickaxe_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pickaxe_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pickaxe_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pickaxe_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pickaxe_cube": {
+    "back": {
+      "itemID": "item_pickaxe_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pickaxe_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pickaxe_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pickaxe_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pickaxe_cube",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pipe": {
+    "back": {
+      "itemID": "item_pipe",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pipe",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pipe",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pipe",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pipe",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pinata_bat": {
+    "back": {
+      "itemID": "item_pinata_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pinata_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pinata_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pinata_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pinata_bat",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_plunger": {
+    "back": {
+      "itemID": "item_plunger",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_plunger",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_plunger",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_plunger",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_plunger",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pogostick": {
+    "back": {
+      "itemID": "item_pogostick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pogostick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pogostick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pogostick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pogostick",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_police_baton": {
+    "back": {
+      "itemID": "item_police_baton",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_police_baton",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_police_baton",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_police_baton",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_police_baton",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pumpkin_pie": {
+    "back": {
+      "itemID": "item_pumpkin_pie",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pumpkin_pie",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pumpkin_pie",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pumpkin_pie",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pumpkin_pie",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pumpkinjack": {
+    "back": {
+      "itemID": "item_pumpkinjack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pumpkinjack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pumpkinjack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pumpkinjack",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pumpkinjack",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_pumpkinjack_small": {
+    "back": {
+      "itemID": "item_pumpkinjack_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_pumpkinjack_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_pumpkinjack_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_pumpkinjack_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_pumpkinjack_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_quiver": {
+    "back": {
+      "itemID": "item_quiver",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_quiver",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_quiver",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_quiver",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_quiver",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_quiver_heart": {
+    "back": {
+      "itemID": "item_quiver_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_quiver_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_quiver_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_quiver_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_quiver_heart",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_radioactive_broccoli": {
+    "back": {
+      "itemID": "item_radioactive_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_radioactive_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_radioactive_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_radioactive_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_radioactive_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_randombox_mobloot_big": {
+    "back": {
+      "itemID": "item_randombox_mobloot_big",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_randombox_mobloot_big",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_randombox_mobloot_big",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_randombox_mobloot_big",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_randombox_mobloot_big",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_randombox_mobloot_medium": {
+    "back": {
+      "itemID": "item_randombox_mobloot_medium",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_randombox_mobloot_medium",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_randombox_mobloot_medium",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_randombox_mobloot_medium",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_randombox_mobloot_medium",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_randombox_mobloot_small": {
+    "back": {
+      "itemID": "item_randombox_mobloot_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_randombox_mobloot_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_randombox_mobloot_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_randombox_mobloot_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_randombox_mobloot_small",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_randombox_mobloot_weapons": {
+    "back": {
+      "itemID": "item_randombox_mobloot_weapons",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_randombox_mobloot_weapons",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_randombox_mobloot_weapons",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_randombox_mobloot_weapons",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_randombox_mobloot_weapons",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_revolver": {
+    "back": {
+      "itemID": "item_revolver",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_revolver",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_revolver",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_revolver",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_revolver",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_revolver_ammo": {
+    "back": {
+      "itemID": "item_revolver_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_revolver_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_revolver_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_revolver_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_revolver_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_rope": {
+    "back": {
+      "itemID": "item_rope",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_rope",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_rope",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_rope",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_rope",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_rpg": {
+    "back": {
+      "itemID": "item_rpg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_rpg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_rpg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_rpg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_rpg",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_rpg_ammo": {
+    "back": {
+      "itemID": "item_rpg_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_rpg_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_rpg_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_rpg_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_rpg_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_rpg_cny": {
+    "back": {
+      "itemID": "item_rpg_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_rpg_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_rpg_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_rpg_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_rpg_cny",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_rubberducky": {
+    "back": {
+      "itemID": "item_rubberducky",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_rubberducky",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_rubberducky",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_rubberducky",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_rubberducky",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ruby": {
+    "back": {
+      "itemID": "item_ruby",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ruby",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ruby",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ruby",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ruby",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_saddle": {
+    "back": {
+      "itemID": "item_saddle",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_saddle",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_saddle",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_saddle",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_saddle",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_scanner": {
+    "back": {
+      "itemID": "item_scanner",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_scanner",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_scanner",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_scanner",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_scanner",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_scissors": {
+    "back": {
+      "itemID": "item_scissors",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_scissors",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_scissors",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_scissors",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_scissors",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_shield": {
+    "back": {
+      "itemID": "item_shield",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_shield",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_shield",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_shield",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_shield",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_shield_bones": {
+    "back": {
+      "itemID": "item_shield_bones",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_shield_bones",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_shield_bones",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_shield_bones",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_shield_bones",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_shield_police": {
+    "back": {
+      "itemID": "item_shield_police",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_shield_police",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_shield_police",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_shield_police",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_shield_police",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_shotgun": {
+    "back": {
+      "itemID": "item_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_shotgun",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_shotgun_ammo": {
+    "back": {
+      "itemID": "item_shotgun_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_shotgun_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_shotgun_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_shotgun_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_shotgun_ammo",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_shredder": {
+    "back": {
+      "itemID": "item_shredder",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_shredder",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_shredder",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_shredder",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_shredder",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_shrinking_broccoli": {
+    "back": {
+      "itemID": "item_shrinking_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_shrinking_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_shrinking_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_shrinking_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_shrinking_broccoli",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_snowball": {
+    "back": {
+      "itemID": "item_snowball",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_snowball",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_snowball",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_snowball",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_snowball",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_stapler": {
+    "back": {
+      "itemID": "item_stapler",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_stapler",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_stapler",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_stapler",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_stapler",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_stick_armbones": {
+    "back": {
+      "itemID": "item_stick_armbones",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_stick_armbones",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_stick_armbones",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_stick_armbones",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_stick_armbones",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_stick_bone": {
+    "back": {
+      "itemID": "item_stick_bone",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_stick_bone",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_stick_bone",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_stick_bone",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_stick_bone",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_sticker_dispenser": {
+    "back": {
+      "itemID": "item_sticker_dispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_sticker_dispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_sticker_dispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_sticker_dispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_sticker_dispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_sticky_dynamite": {
+    "back": {
+      "itemID": "item_sticky_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_sticky_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_sticky_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_sticky_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_sticky_dynamite",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_stinky_cheese": {
+    "back": {
+      "itemID": "item_stinky_cheese",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_stinky_cheese",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_stinky_cheese",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_stinky_cheese",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_stinky_cheese",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_tablet": {
+    "back": {
+      "itemID": "item_tablet",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_tablet",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_tablet",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_tablet",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_tablet",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_tapedispenser": {
+    "back": {
+      "itemID": "item_tapedispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_tapedispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_tapedispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_tapedispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_tapedispenser",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_tele_grenade": {
+    "back": {
+      "itemID": "item_tele_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_tele_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_tele_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_tele_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_tele_grenade",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_theremin": {
+    "back": {
+      "itemID": "item_theremin",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_theremin",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_theremin",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_theremin",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_theremin",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_timebomb": {
+    "back": {
+      "itemID": "item_timebomb",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_timebomb",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_timebomb",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_timebomb",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_timebomb",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_toilet_paper": {
+    "back": {
+      "itemID": "item_toilet_paper",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_toilet_paper",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_toilet_paper",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_toilet_paper",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_toilet_paper",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_toilet_paper_mega": {
+    "back": {
+      "itemID": "item_toilet_paper_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_toilet_paper_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_toilet_paper_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_toilet_paper_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_toilet_paper_mega",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_toilet_paper_roll_empty": {
+    "back": {
+      "itemID": "item_toilet_paper_roll_empty",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_toilet_paper_roll_empty",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_toilet_paper_roll_empty",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_toilet_paper_roll_empty",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_toilet_paper_roll_empty",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_treestick": {
+    "back": {
+      "itemID": "item_treestick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_treestick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_treestick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_treestick",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_treestick",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_tripwire_explosive": {
+    "back": {
+      "itemID": "item_tripwire_explosive",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_tripwire_explosive",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_tripwire_explosive",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_tripwire_explosive",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_tripwire_explosive",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_trophy": {
+    "back": {
+      "itemID": "item_trophy",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_trophy",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_trophy",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_trophy",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_trophy",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_turkey_leg": {
+    "back": {
+      "itemID": "item_turkey_leg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_turkey_leg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_turkey_leg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_turkey_leg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_turkey_leg",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_turkey_whole": {
+    "back": {
+      "itemID": "item_turkey_whole",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_turkey_whole",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_turkey_whole",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_turkey_whole",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_turkey_whole",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_umbrella": {
+    "back": {
+      "itemID": "item_umbrella",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_umbrella",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_umbrella",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_umbrella",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_umbrella",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_umbrella_clover": {
+    "back": {
+      "itemID": "item_umbrella_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_umbrella_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_umbrella_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_umbrella_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_umbrella_clover",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_unidentified": {
+    "back": {
+      "itemID": "item_unidentified",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_unidentified",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_unidentified",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_unidentified",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_unidentified",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ukulele": {
+    "back": {
+      "itemID": "item_ukulele",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ukulele",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ukulele",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ukulele",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ukulele",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_ukulele_gold": {
+    "back": {
+      "itemID": "item_ukulele_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_ukulele_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_ukulele_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_ukulele_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_ukulele_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_upsidedown_loot": {
+    "back": {
+      "itemID": "item_upsidedown_loot",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_upsidedown_loot",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_upsidedown_loot",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_upsidedown_loot",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_upsidedown_loot",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_uranium_chunk_l": {
+    "back": {
+      "itemID": "item_uranium_chunk_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_uranium_chunk_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_uranium_chunk_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_uranium_chunk_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_uranium_chunk_l",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_uranium_chunk_m": {
+    "back": {
+      "itemID": "item_uranium_chunk_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_uranium_chunk_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_uranium_chunk_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_uranium_chunk_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_uranium_chunk_m",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_uranium_chunk_s": {
+    "back": {
+      "itemID": "item_uranium_chunk_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_uranium_chunk_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_uranium_chunk_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_uranium_chunk_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_uranium_chunk_s",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_whoopie": {
+    "back": {
+      "itemID": "item_whoopie",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_whoopie",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_whoopie",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_whoopie",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_whoopie",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_zipline_gun": {
+    "back": {
+      "itemID": "item_zipline_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_zipline_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_zipline_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_zipline_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_zipline_gun",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_rpg_easter": {
+    "back": {
+      "itemID": "item_rpg_easter",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_rpg_easter",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_rpg_easter",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_rpg_easter",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_rpg_easter",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_rpg_ammo_egg": {
+    "back": {
+      "itemID": "item_rpg_ammo_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_rpg_ammo_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_rpg_ammo_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_rpg_ammo_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_rpg_ammo_egg",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  },
+  "item_revolver_gold": {
+    "back": {
+      "itemID": "item_revolver_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHand": {
+      "itemID": "item_revolver_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHand": {
+      "itemID": "item_revolver_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "leftHip": {
+      "itemID": "item_revolver_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    },
+    "rightHip": {
+      "itemID": "item_revolver_gold",
+      "ammo": 0,
+      "maxAmmo": 2
+    }
+  }
 }
