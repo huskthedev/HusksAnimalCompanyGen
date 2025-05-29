@@ -1,0 +1,7 @@
+{
+  "back": {"itemID": "item_shotgun", "ammo": 2},
+  "leftHand": {"itemID": "item_shotgun", "ammo": 2},
+  "rightHand": {"itemID": "item_shotgun", "ammo": 2},
+  "leftHip": {"itemID": "item_shotgun", "ammo": 2},
+  "rightHip": {"itemID": "item_shotgun", "ammo": 2}
+}
