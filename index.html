@@ -89,7 +89,7 @@
             allItemIDs.forEach(itemID => {
                 const option = document.createElement("option");
                 option.value = itemID;
-                option.textContent = itemID === "nothing" ? "Nothing" : itemID.replace(/_/g, ' ');
+                option.textContent = itemID === "nothing" ? "Nothing" : itemID.replace(/^item_/, '').replace(/_/g, ' ');
                 itemSelect.appendChild(option);
             });
 
